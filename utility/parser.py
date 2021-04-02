@@ -4,7 +4,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Run DGCF.")
     parser.add_argument('--data_path', nargs='?', default='../Data/',
                         help='Input data path.')
-    parser.add_argument('--proj_path', nargs='?', default='',
+    parser.add_argument('--proj_path', nargs='?', default='../',
                         help='Project path.')
     
     parser.add_argument('--pick', type=int, default=0,
@@ -37,6 +37,8 @@ def parse_args():
                         help='Distance Correlation Weight')
     parser.add_argument('--regs', nargs='?', default='[1e-3,1e-4,1e-4]',
                         help='Regularizations.')
+    parser.add_argument('--gpu_id', type=int, default=0)
+    parser.add_argument('--multicore', type=int, default=0, help='whether we use multiprocessing or not in test')
         
     parser.add_argument('--n_layers', type=int, default=1,
                         help='Layer numbers.')
