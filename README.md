@@ -14,3 +14,12 @@ We recommend to run this code in GPUs. The code has been tested running under Py
 * numpy == 1.14.3
 * scipy == 1.1.0
 * sklearn == 0.19.1
+
+'''
+Created on Apr , 2021
+Pytorch Implementation of Disentangled Graph Collaborative Filtering (DGCF) model in:
+Wang Xiang et al. Disentangled Graph Collaborative Filtering. In SIGIR 2020.
+Note that: This implementation is based on the codes of NGCF.
+@author: Xiang Wang (xiangwang@u.nus.edu)
+@author: Jisu Rho (jsroh1013@gmail.com)
+'''
