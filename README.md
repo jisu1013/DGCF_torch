@@ -1,13 +1,21 @@
 '''
 Created on Apr , 2021
+
+
 Pytorch Implementation of Disentangled Graph Collaborative Filtering (DGCF) model in:
+
+
 Wang Xiang et al. Disentangled Graph Collaborative Filtering. In SIGIR 2020.
+
+
 Note that: This implementation is based on the codes of NGCF.
-@author: Jisu Rho (jsroh1013@gmail.com)
+
+
+@ Jisu Rho (jsroh1013@gmail.com)
 '''
 
 # Disentangled Graph Collaborative Filtering
-This is our Tensorflow Implemenatation implementation for the paper:
+This is Pytorch Implemenatation for the paper:
 
 >Xiang Wang, Hongye Jin, An Zhang, Xiangnan He, Tong Xu, and Tat-Seng Chua (2020). Disentangled Graph Collaborative Filtering, [Paper in arXiv](https://arxiv.org/abs/2007.01764). In SIGIR'20, Xi'an, China, July 25-30, 2020.
 
@@ -18,15 +26,7 @@ Disentangled Graph Collaborative Filtering (DGCF) is an explainable recommendati
 
 ## Environment Requirement
 We recommend to run this code in GPUs. The code has been tested running under Python 3.6.5. The required packages are as follows:
-* tensorflow_gpu == 1.14.0
-* numpy == 1.14.3
-* scipy == 1.1.0
-* sklearn == 0.19.1
------------------------------------------------------------------
-* python == 3.6.5
 * torch == 1.4.0
 * scipy == 1.5.4
 * numpy == 1.16.1
-* sklear == 0.24.1
-
-
+* sklearn == 0.24.1
