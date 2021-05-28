@@ -22,3 +22,11 @@ We recommend to run this code in GPUs. The code has been tested running under Py
 * numpy == 1.14.3
 * scipy == 1.1.0
 * sklearn == 0.19.1
+-----------------------------------------------------------------
+* python == 3.6.5
+* torch == 1.4.0
+* scipy == 1.5.4
+* numpy == 1.16.1
+* sklear == 0.24.1
+
+
